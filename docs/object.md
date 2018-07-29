@@ -688,7 +688,7 @@ Reflect.ownKeys({ [Symbol()]:0, b:0, 10:0, 2:0, a:0 })
 // ['2', '10', 'b', 'a', Symbol()]
 ```
 
-上面代码中，`Reflect.ownKeys`方法返回一个数组，包含了参数对象的所有属性。这个数组的属性次序是这样的，首先是数值属性`2`和`10`，其次是字符串属性`b`和`a`，最后是 Symbol 属性。
+上面代码中，`Reflect.ownKeys`方法返回一个数组，包含了参数对象的所有属性的健名。这个数组的排列次序是这样的，首先是数值属性名`2`和`10`，其次是字符串属性名`b`和`a`，最后是 Symbol 属性名Symbol()。
 
 ## Object.getOwnPropertyDescriptors()
 
